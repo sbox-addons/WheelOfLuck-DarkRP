@@ -1,0 +1,24 @@
+{
+  "Title": "WheelOfLuck [DarkRP]",
+  "Type": "addon",
+  "Org": "local",
+  "OrgTitle": null,
+  "Ident": "wheelofluckremastered",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PublishUsedAssetsOnly": false,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Mounts": null,
+  "IsStandaloneOnly": false,
+  "AI": {
+    "EnableMcpCommunication": true
+  },
+  "Metadata": {
+    "StartupScene": "scenes/testing_scene.scene",
+    "ParentPackage": "facepunch.sandbox",
+    "WorkshopTags": [],
+    "WorkshopId": 3846357266
+  }
+}

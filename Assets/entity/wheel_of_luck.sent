@@ -1,0 +1,8 @@
+{
+  "Prefab": "entity/wheel_of_luck.prefab",
+  "Title": "Wheel of Luck",
+  "Description": "Blue's Slots Wheel of Luck slot machine (DarkRP money). Press E to spin, R for the paytable.",
+  "Category": "World",
+  "__references": [],
+  "__version": 0
+}

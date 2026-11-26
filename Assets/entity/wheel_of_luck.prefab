@@ -1,0 +1,90 @@
+{
+  "RootObject": {
+    "__guid": "9a02f583-056b-42ca-ab47-7ac2fd1fa1d4",
+    "__version": 2,
+    "Flags": 0,
+    "Name": "wheel_of_luck",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkFlags": 0,
+    "NetworkOrphaned": 0,
+    "NetworkTransmit": true,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "WheelOfLuck",
+        "__guid": "dea2b816-43ec-41c0-9a3d-cb785113e216",
+        "__enabled": true,
+        "Flags": 0
+      },
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "9adc7f7d-eb3c-4e99-b744-a692c277bcfc",
+        "__enabled": true,
+        "Flags": 0,
+        "Model": "models/wheelofluck/wheelofluck_body.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1",
+        "BodyGroups": 18446744073709551615,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "CreateAttachments": false
+      },
+      {
+        "__type": "Sandbox.Rigidbody",
+        "__guid": "3f01ea7a-0439-4555-b28e-2f1cf0256985",
+        "__enabled": true,
+        "Flags": 0,
+        "Gravity": true,
+        "MotionEnabled": true,
+        "MassOverride": 300,
+        "LinearDamping": 0,
+        "AngularDamping": 0,
+        "StartAsleep": false
+      },
+      {
+        "__type": "Sandbox.ModelCollider",
+        "__guid": "78f2fb8c-e537-43d6-8fbb-1dec6cce3701",
+        "__enabled": true,
+        "Flags": 0,
+        "Model": "models/wheelofluck/wheelofluck_body.vmdl",
+        "IsTrigger": false,
+        "Static": false
+      }
+    ],
+    "Children": [],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": false,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": "",
+        "CustomBounds": false
+      }
+    },
+    "__variables": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [
+    "facepunch.watermelon#143952"
+  ],
+  "__version": 2
+}

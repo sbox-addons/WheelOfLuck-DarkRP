@@ -1,0 +1,98 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode =
+	{
+		_class = "RootNode"
+		children =
+		[
+			{
+				_class = "MaterialGroupList"
+				children =
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps =
+						[
+							{
+								from = "main_diffuse.vmat"
+								to = "materials/wheelofluck/main.vmat"
+							},
+							{
+								from = "goldshader_diffuse.vmat"
+								to = "materials/wheelofluck/gold.vmat"
+							},
+							{
+								from = "full_black.vmat"
+								to = "materials/wheelofluck/black.vmat"
+							},
+							{
+								from = "glass.vmat"
+								to = "materials/wheelofluck/glass.vmat"
+							},
+							{
+								from = "screens_diffuse.vmat"
+								to = "materials/wheelofluck/screens.vmat"
+							},
+							{
+								from = "led_screens.vmat"
+								to = "materials/wheelofluck/led_screens.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = "materials/default.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children =
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/wheelofluck/wheelofluck_body.obj"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter =
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children =
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_tags = "solid"
+						origin = [ 5.0000, 0.0000, 49.0000 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 62.0000, 52.0000, 98.0000 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "metal"
+						collision_tags = "solid"
+						origin = [ 17.0000, 0.0000, 125.0000 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 18.0000, 48.0000, 54.0000 ]
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}
